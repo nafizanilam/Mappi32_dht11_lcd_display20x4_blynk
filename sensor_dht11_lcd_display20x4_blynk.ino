@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLdsy2gy98"
-#define BLYNK_DEVICE_NAME "DHT11"
-#define BLYNK_AUTH_TOKEN "r3owW3WBNJGg3a2OD4cajiLA_y3tqrSU"
+#define BLYNK_TEMPLATE_ID "XXXXXXXX"
+#define BLYNK_DEVICE_NAME "XXXXXXXXXX"
+#define BLYNK_AUTH_TOKEN "XXXXXXXXXXXXXX"
 #define BLYNK_PRINT Serial
 
 #include <LiquidCrystal_I2C.h>
@@ -17,8 +17,8 @@ int Con = 100;
 DHT dht(32, DHT11); //Pin, Jenis DHT
 
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "KMTek"; //nama wifix
-char pass[] = "KMTek123"; //password wifi
+char ssid[] = "XXXXXXX"; //nama wifix
+char pass[] = "XXXXXXX"; //password wifi
 
 BlynkTimer timer;
 
